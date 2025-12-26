@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class SumNatural {
 
     public static void main(String[] args) {
@@ -11,5 +13,6 @@ class SumNatural {
             sum += i;
         }
         System.out.println("Sum = " + sum);
+        s.close();
     }
 }

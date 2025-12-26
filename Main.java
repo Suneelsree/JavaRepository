@@ -1,9 +1,11 @@
+import java.util.Scanner;
+
 public class Main {
   public static void main(String[] args) {
     //Declaration  && initiallization 
     int n , a = 0, b = 1;
     Scanner s=new Scanner(System.in);
-    System.out.println("Enter limit term"): 
+    System.out.println("Enter limit term");
     n=s.nextInt();
     
     System.out.println("Fibonacci Series till " + n + " terms:");
@@ -15,5 +17,6 @@ public class Main {
       a = b;
       b = c;
     }
+    s.close();
   }
 }

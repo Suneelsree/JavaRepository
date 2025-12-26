@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Factor {
   public static void main(String[] args) {
     int number;
@@ -10,5 +12,6 @@ public class Factor {
         System.out.print(i + " ");
       }
     }
+    s.close();
   }
 }

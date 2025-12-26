@@ -1,3 +1,6 @@
+import java.util.Scanner;
+
+class PyramidNum {
 public static void main(String[] args) {
     int rows;
     Scanner s=new Scanner(System.in);
@@ -9,5 +12,6 @@ public static void main(String[] args) {
       }
       System.out.println();
     }
+    s.close();
   }
 }

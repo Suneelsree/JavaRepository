@@ -1,4 +1,6 @@
-public class Main {
+import java.util.Scanner;
+
+public class Solution {
   public static void main(String[] args) {
     int count = 0;
     int num;
@@ -10,5 +12,6 @@ public class Main {
       ++count;
     }
     System.out.println("Number of digits: " + count);
-  }
+    s.close();
+    }
 }

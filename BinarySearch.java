@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class BinarySearch{  
  public static void binarySearch(int arr[], int first, int last, int key){  
    int mid = (first + last)/2;  
@@ -24,12 +26,13 @@ class BinarySearch{
         System.out.println("enter Element one by one:");
         for(int i=0;i<n;i++)
         {
-          a[i]=s.nextInt();
+          arr[i]=s.nextInt();
         }
         int key;
         System.out.println("enter Search elements");
         key=s.nextInt(); 
         int last=arr.length-1;  
-        binarySearch(arr,0,last,key);     
+        binarySearch(arr,0,last,key); 
+        s.close();   
  }  
 }  

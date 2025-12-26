@@ -1,4 +1,6 @@
-public class Main {
+import java.util.Scanner;
+
+public class PyramidStar {
 
   public static void main(String[] args) {
     int rows;
@@ -11,5 +13,6 @@ public class Main {
       }
       System.out.println();
     }
+    s.close();
   }
 }

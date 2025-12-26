@@ -1,6 +1,5 @@
-import java.io.*;
 import java.util.*;
-class main
+class main1
 {
 public static void main(String args[])
 {
@@ -13,6 +12,7 @@ public static void main(String args[])
   bfs b=new bfs();
   b.input(a);
   b.logic(a,qu,visit);
+  s.close();
 }
 }
 class bfs
@@ -32,6 +32,7 @@ class bfs
   }
   System.out.println("enter starting vertix");
   st=s.nextInt();
+  s.close();
 }
 void logic(int a[][],int visit[],int qu[])
 {

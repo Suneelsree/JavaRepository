@@ -15,9 +15,9 @@ public class Time {
         Time stop = new Time(12, 34, 55);
         Time diff;
         diff = difference(start, stop);
-        System.out.print("TIME DIFFERENCE: %d:%d:%d - ", start.hours, start.minutes, start.seconds);
-        System.out.print("%d:%d:%d ", stop.hours, stop.minutes, stop.seconds);
-        System.out.print("= %d:%d:%d\n", diff.hours, diff.minutes, diff.seconds);
+        System.out.printf("TIME DIFFERENCE: %d:%d:%d - ", start.hours, start.minutes, start.seconds);
+        System.out.printf("%d:%d:%d ", stop.hours, stop.minutes, stop.seconds);
+        System.out.printf("= %d:%d:%d\n", diff.hours, diff.minutes, diff.seconds);
     }
 
     public static Time difference(Time start, Time stop)

@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 class joker
 {
@@ -112,6 +111,7 @@ public static void main(String args[])throws Exception
 	System.out.println("do you continue press 1");
 	ch=s.nextInt();
 	}while(ch==1);
+	s.close();
 }
 }
 class details
@@ -132,5 +132,6 @@ class details
 		address=s.nextLine();
 		System.out.print("Student phoneno       :");
 		phoneno=s.nextLine();
+		s.close();
 	}
 }

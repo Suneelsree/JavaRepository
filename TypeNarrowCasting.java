@@ -1,6 +1,4 @@
-import java.io.*;
-import java.util.*;
-class Main {
+class TypeNarrowCasting {
   public static void main(String[] args) {
     double myDouble = 4.99d;
     int myInt = (int) myDouble;

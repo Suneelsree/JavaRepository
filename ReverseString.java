@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Reverse {
 
   public static void main(String[] args) {
@@ -7,6 +9,7 @@ class Reverse {
     sentence=s.nextLine();
     String reversed = reverse(sentence);
     System.out.println("The reversed sentence is: " + reversed);
+    s.close();
   }
 
   public static String reverse(String sentence) {

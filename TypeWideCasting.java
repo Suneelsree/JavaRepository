@@ -1,6 +1,4 @@
-import java.io.*;
-import java.util.*;
-class Main {
+class TypeWideCasting {
   public static void main(String[] args) {
     int myInt = 9;
     double myDouble = myInt; 
